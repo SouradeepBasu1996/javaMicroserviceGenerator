@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 import java.nio.file.Path;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class TemplateController {
